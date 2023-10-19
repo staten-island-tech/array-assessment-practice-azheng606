@@ -84,6 +84,15 @@ const titles = [
   "Little Women",
 ];
 
+books.forEach ((book)=> console.log (book.name ))
+books.forEach(book) => 
+books.sort ((book)=> book.publishDate )
+books.forEach((book) =>
+book.genre.forEach ((genre)=> console.log(genre)))
+const out= books.filter ((book)=> book.publishDate > 1865)
+console.log (out);
+
+
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
 
