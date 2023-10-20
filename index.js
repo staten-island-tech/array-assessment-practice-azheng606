@@ -84,13 +84,27 @@ const titles = [
   "Little Women",
 ];
 
-books.forEach ((book)=> console.log (book.name ))
-books.forEach(book) => 
-books.sort ((book)=> book.publishDate )
-books.forEach((book) =>
-book.genre.forEach ((genre)=> console.log(genre)))
-const out= books.filter ((book)=> book.publishDate > 1865)
-console.log (out);
+books.forEach ((book)=> 
+console.log (book.authorFirst, book.authorLast, "wrote", book.name, "in", book.publishDate))
+
+
+function order (){
+}
+
+const hundred= books.filter ((book)=> book.publishDate > 1923)
+console.log (hundred);
+
+
+
+function history () { 
+  books.forEach ((book)=>  book.genre.forEach ((genre)=> (book.genre = "historical"))
+    console.log (books.name); )
+  }
+
+history ()
+
+
+
 
 
 //Array of authors and the book they wrote
@@ -105,7 +119,8 @@ console.log (out);
 //how many books were written before 1900?
 
 //was there at least one book published within the last 100 years?
-
+//yes
 //was every book published within the last 100 years?
+//no there was only five 
 
 //print a list of books that "includes" the genre historical
