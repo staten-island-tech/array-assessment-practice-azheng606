@@ -95,13 +95,16 @@ const hundred= books.filter ((book)=> book.publishDate > 1923)
 console.log (hundred);
 
 
-
+/* 
 function history () { 
   books.forEach ((book)=>  book.genre.forEach ((genre)=> (book.genre = "historical"))
     console.log (books.name); )
   }
+s
+history () */
 
-history ()
+const social = books.filter ((book)=> book.genre = "historical")
+console.log (social)
 
 
 
